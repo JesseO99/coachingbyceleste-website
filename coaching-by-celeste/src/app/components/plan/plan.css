@@ -1,0 +1,35 @@
+.plans-container{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width:100%;
+    
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.plans_inner_container{
+    margin:2em;
+    display: grid;
+    width: 40vw;
+    align-items: left;
+    background-color: #fff1e9;
+    padding:2vw;
+
+}
+
+@media only screen and (max-width: 600px){
+    .plans_inner_container{
+        display: grid;
+        width: 80vw;
+        align-items: left;
+        padding:5vw;
+        /* background-color: blue; */
+    }
+}
+
+
+.plans_inner_container h3{
+    text-align: center;
+}
