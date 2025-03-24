@@ -11,11 +11,14 @@
 
 .plans_inner_container{
     margin:2em;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     width: 40vw;
     align-items: left;
     background-color: #fff1e9;
-    padding:2vw;
+    padding:2vw 6vw;
+    min-height: 30vh;
 
 }
 
@@ -24,12 +27,14 @@
         display: grid;
         width: 80vw;
         align-items: left;
-        padding:5vw;
-        /* background-color: blue; */
+        padding:5vw 8vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 }
 
 
-.plans_inner_container h3{
+.plans_inner_container h2{
     text-align: center;
 }

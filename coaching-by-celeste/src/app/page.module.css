@@ -19,4 +19,17 @@
 .hero_img {
   width: 100vw;
   height: 50vh;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.hero_img img {
+  visibility: hidden;
+  overflow: hidden;
+}
+.page h1 {
+  padding: 0.5em;
+  background-color: #fff1e9;
+  width: 100%;
+  text-align: center;
 }

@@ -1,13 +1,14 @@
 // import "./plan.css";
 import styles from "./plan.css";
+import Button from "../button/button.js"
 
-export default function Plan(){
+export default function Plan({}){
     return(
     <div className="plans-container">
         <div className="plans_inner_container">
-            <h3>
+            <h2>
                 Plan title
-            </h3>
+            </h2>
             <ul>
                 <li>
                     Item a
@@ -15,7 +16,15 @@ export default function Plan(){
                 <li>
                     Item b
                 </li>
+                <li>
+                    Item c
+                </li>
+                <li>
+                    Item d
+                </li>
             </ul>
+
+            <Button label={"Button"}  link={"https://www.google.com"} />
         </div>
 
     </div>
