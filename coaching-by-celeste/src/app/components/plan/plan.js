@@ -2,29 +2,26 @@
 import styles from "./plan.css";
 import Button from "../button/button.js"
 
-export default function Plan({}){
+export default function Plan(props){
     return(
-    <div className="plans-container">
-        <div className="plans_inner_container">
-            <h2>
-                Plan title
+    <div className="plan-container">
+        <div className="plan_inner_container">
+            <h2 className="plan_heading">
+                {props.title}
             </h2>
-            <ul>
-                <li>
-                    Item a
-                </li>
-                <li>
-                    Item b
-                </li>
-                <li>
-                    Item c
-                </li>
-                <li>
-                    Item d
-                </li>
+            <p className="plan_terms">
+                {props.terms}
+            </p>
+            
+            {(props.header) ? <p className="plan_footer"> {props.header}</p> : ""}
+            
+            <ul className="plan_list">
+                {props.inclusions.map((inclusion) => <li>{inclusion}</li>)}
             </ul>
 
-            <Button label={"Button"}  link={"https://www.google.com"} />
+            {(props.footer) ? <p className="plan_footer"> {props.footer}</p> : ""}
+            
+            <Button label={"Enrol Now"}  link={props.link} />
         </div>
 
     </div>

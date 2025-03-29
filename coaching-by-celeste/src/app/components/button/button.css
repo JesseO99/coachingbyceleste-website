@@ -2,26 +2,27 @@
 
 .Button {
 	box-shadow: 0px 1px 3px 0px #1c1b18;
-	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
-	background-color:#eae0c2;
+	background:linear-gradient(to bottom, #fff1e9 5%, #fff1e9 100%);
+	background-color:#fff1e9;
 	border-radius:16px;
-	border:2px solid #333029;
+	border:1px solid #6c3323;
 	display:inline-block;
 	cursor:pointer;
-	color:#505739;
+	color: #6c3323;
 	font-family:Arial;
 	font-size:14px;
 	padding:16px 24px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #ffffff;
+	text-shadow:0px 1px 0px #6c3323;
     margin-top: 2em;
     text-align: center;
+	width:fit-content;
 
     /* min-height: 0px; */
 }
 .Button:hover {
-	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
-	background-color:#ccc2a6;
+	background:linear-gradient(to bottom, #e8dbd4 5%, #e8dbd4 100%);
+	background-color:#e8dbd4;
 }
 .Button:active {
 	position:relative;

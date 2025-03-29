@@ -21,15 +21,20 @@
   height: 50vh;
   overflow: hidden;
   object-fit: cover;
+  object-position: 100% 40%;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero_img {
+    width: 100vw;
+    height: 50vh;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: 80% 80%;
+  }
 }
 
 .hero_img img {
   visibility: hidden;
   overflow: hidden;
-}
-.page h1 {
-  padding: 0.5em;
-  background-color: #fff1e9;
-  width: 100%;
-  text-align: center;
 }
