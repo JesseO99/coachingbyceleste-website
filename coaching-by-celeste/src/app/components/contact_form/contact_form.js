@@ -1,5 +1,5 @@
 import styles from "./contact_form.css";
-
+import Button from "../button/button";
 
 export default function Contact_form() {
     return(
@@ -15,8 +15,16 @@ export default function Contact_form() {
                 <br/><br/>
 
                 Email: Celeste at <a href="mailto:celeste.osrecak@hotmail.com">celeste.osrecak@hotmail.com</a>
-            </p>
 
+                <br/><br/>
+                
+                Prefer to speak?
+                <br/>
+                
+
+
+            </p>
+            <Button link={"https://icalendly.com/celeste-osrecak/30min"} label={"Book a call"} />
 
 
         </div>
