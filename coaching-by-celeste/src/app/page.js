@@ -33,7 +33,7 @@ export default function Home() {
               'Vault access to recipes and other materials'
             ]
           } 
-          link={"https://www.google.com"} 
+          link={"https://r.newie.app/12w630z8neaz"} 
         />
         <Plan 
           title={"Online coaching - Nutrition only"} 
@@ -51,7 +51,7 @@ export default function Home() {
               'Vault access to recipes and other materials'
             ]
           } 
-          link={"https://www.google.com"} 
+          link={"https://r.newie.app/2d075e83cpqv"} 
         />
         <Plan 
           title={"Once off training pack"} 
@@ -63,7 +63,7 @@ export default function Home() {
               'No support include' 
             ]
           } 
-          link={"https://www.google.com"} 
+          link={"https://r.newie.app/3bly4fz6c2jl"} 
         />
         <Plan 
           title={"Once off meal plan "} 
@@ -79,7 +79,7 @@ export default function Home() {
             ]
           } 
           footer = {<>Flexible and can be used for as many week as you would like. <br/><br/> Step-by-step guide on how to use My Fitness Pal included.</>}
-          link={"https://www.google.com"}
+          link={"https://r.newie.app/3nwk55mk9q4v"}
         />
         <Glossary/>
         <Contact_form/>
