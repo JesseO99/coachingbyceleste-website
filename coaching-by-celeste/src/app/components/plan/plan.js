@@ -16,7 +16,7 @@ export default function Plan(props){
             {(props.header) ? <p className="plan_footer"> {props.header}</p> : ""}
             
             <ul className="plan_list">
-                {props.inclusions.map((inclusion) => <li>{inclusion}</li>)}
+                {props.inclusions.map((inclusion) => <li key={inclusion}>{inclusion}</li>)}
             </ul>
 
             {(props.footer) ? <p className="plan_footer"> {props.footer}</p> : ""}
