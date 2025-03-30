@@ -24,8 +24,14 @@ export default function Contact_form() {
         const observer = new ResizeObserver(updateHeight);
         observer.observe(targetDiv);
 
+        window.addEventListener("resize", updateHeight);
+
         // Cleanup
-        return () => observer.disconnect();
+        return () => {
+            observer.disconnect();
+            window.removeEventListener("resize", updateHeight);
+
+        };
     }, []);
 
     return(
