@@ -38,9 +38,9 @@ export default function Contact_form() {
 
                 Want help or advice on a plan that suits you?
 
-                {/* <br/><br/>
+                <br/><br/>
 
-                Email: Celeste at <a href="mailto:celeste.osrecak@hotmail.com">celeste.osrecak@hotmail.com</a> */}
+                Follow me on instagram at <a href="https://www.instagram.com/coachingbyceleste/">instagram.com/coachingbyceleste</a>
 
                 <br/><br/>
                 
