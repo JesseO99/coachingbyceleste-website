@@ -39,6 +39,7 @@
 .plan_inner_container h2{
     text-align: center;
     padding-bottom: 0.5em;
+    text-transform: uppercase;
 }
 
 .plan_inner_container p{

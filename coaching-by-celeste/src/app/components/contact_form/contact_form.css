@@ -24,13 +24,13 @@
     }
 
     .contact_image {
-        object-position: 50% 40%;
+        object-position: 60% 50%;
     }
 }
 
 .contact_form_inner_container {
     background-color: white;
-    padding:2em 4em;
+    padding:4em;
 }
 
 .button_container {
@@ -46,13 +46,14 @@
         justify-content: space-around;
         flex-direction: column-reverse;
         background-color: #fff1e9;
+        padding: 0;
+        background-color: white;
     }
 
     .contact_image {
-        padding-bottom: 4em;
+        /* padding-bottom: 4em; */
         width:100%;
-        object-position: 50% 40%;
-        /* height:100%; */
+        object-position: 60% 50%;
         /* overflow: hidden; */
         object-fit: cover;
     }

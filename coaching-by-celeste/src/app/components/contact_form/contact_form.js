@@ -58,7 +58,7 @@ export default function Contact_form() {
             </p>
 
             <div className="button_container" >
-                <Button link={"https://icalendly.com/celeste-osrecak/30min"} label={"Book a call"} />
+                <Button link={"https://calendly.com/celeste-osrecak/30min"} label={"Book a call"} />
             </div>
 
 
