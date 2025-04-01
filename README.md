@@ -14,3 +14,7 @@ https://react.dev/learn/creating-a-react-app
 
  ### TODO
  
+
+### Deploying Instructions
+
+`https://medium.com/@geevadon/how-to-deploy-a-next-js-app-on-cpanel-efficiently-c00c5eb860de`
