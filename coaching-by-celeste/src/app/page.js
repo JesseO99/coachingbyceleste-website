@@ -65,7 +65,8 @@ export default function Home() {
           } 
           link={"https://r.newie.app/3bly4fz6c2jl"} 
         />
-        <Plan 
+        {/* Requested Removal by Celeste */}
+        {/* <Plan 
           title={"Once off meal plan "} 
           terms={<>Terms: Non refundable</>} 
           header={'X1 Personalised meal plan'}
@@ -80,7 +81,7 @@ export default function Home() {
           } 
           footer = {<>Flexible and can be used for as many week as you would like. <br/><br/> Step-by-step guide on how to use My Fitness Pal included.</>}
           link={"https://r.newie.app/3nwk55mk9q4v"}
-        />
+        /> */}
         <Glossary/>
         <Contact_form/>
       </main>
