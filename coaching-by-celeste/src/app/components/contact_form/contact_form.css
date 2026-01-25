@@ -7,6 +7,7 @@
     /* height: 30vh; */
     padding: 4em 10vw;
     max-height: min-content;
+    overflow-wrap: break-word;
 }
 
 .contact_image {
