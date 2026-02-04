@@ -15,8 +15,9 @@ export default function Page() {
             <li className={styles.inclusions}>Weekly Sample Meal Plan</li>
             <li className={styles.inclusions}>Personalised Training Plan</li>
             <li className={styles.inclusions}>Personalised Macro's </li>
+            <li className={styles.inclusions}>Fortnightly Check-In With Feedback</li>
           </ul>
-          <p><strong> Upgrade me option: </strong> As part of the challenge i'm offering discounted additional personal Training sessions priced at $65 for 45min (save $15 per session)</p>
+          <p><strong> Upgrade me option: </strong> As part of the challenge i'm offering discounted additional personal training sessions priced at $65 for 45min (save $15 per session)</p>
           </div>
           <div className={styles.competition_img}> <img src="eight_week_challenge.jpg" /></div>
         </div>
