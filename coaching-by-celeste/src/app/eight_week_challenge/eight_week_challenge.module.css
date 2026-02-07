@@ -1,6 +1,13 @@
 .heading {
     padding: 0.5em;
+    padding-bottom: 0em;
     text-align: center;
+}
+
+.subheading {
+    text-align: center;
+    padding-bottom:0.5em;
+    font-size: small;
 }
 
 .competition {
@@ -61,6 +68,18 @@
     padding: 2em;
 }
 
+.introduction {
+    padding: 0.5em;
+}
+
+.introduction p {
+    text-align: center;
+}
+
+.start_date {
+    font-size: x-large;
+}
+
 .competition_winner {
     display: flex;
     width: 100%;
@@ -68,6 +87,7 @@
     align-items: center;
     padding: 2em 1em;
     font-size: x-large;
+    text-align: center;
 }
 
 .competition_winner li{
@@ -93,6 +113,7 @@
         width: 100%;
         margin: 0;
         padding: 2em 0;
+        text-align: center;
     }
 
     .competition_img img{
