@@ -1,0 +1,41 @@
+.socials {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.socials a {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.socials p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.instagram_logo {
+    
+    width: 2em;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    padding-right: 0.25em;
+}
+
+@media only screen and (max-width: 600px) {
+    .socials {
+        display: flex;
+        flex-direction: col;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 1em;
+    }
+}

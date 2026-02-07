@@ -1,13 +1,15 @@
 import styles from "./eight_week_challenge.module.css"
-import Contact_form from "../components/contact_form/contact_form";
 import Package from "./components/package/package";
+import Socials from "../components/socials/socials";
 
 export default function Page() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <h1 className={styles.heading}>The Women's 8 Week Challenge</h1>
-        <p className={styles.subheading}>COACHING BY CELESTE</p>
+        <div className={styles. header}>
+          <h1 className={styles.heading}>The Women's 8 Week Challenge</h1>
+          <p className={styles.subheading}>COACHING BY CELESTE</p>
+        </div>
         <div className={styles.competition}>
           <div className={styles.introduction}>
             <p>
@@ -43,27 +45,29 @@ export default function Page() {
         </div>
         <div className={styles.packages}>
           <Package className={styles.package}
-            payment = {"$344"}
+            payment = {"$399"}
             frequency = {"One Time Payment"}
             button_text = {"I'm In!"} 
             link={"https://share.newie.app/offerings/CCA02CB2-F48D-4A65-9307-0FE72D7F25BA"} 
 
           />
           <Package
-            payment = {"$43"}
+            payment = {"$49"}
             frequency = {"Weekly Payment"}
             button_text = {"I'm In!"} 
             link={"https://share.newie.app/offerings/1B825DBD-4A11-4E73-B85E-54C09466FF33"} 
           />
           <Package
-            payment = {"Have a question?"} //TODO Change to a unique block and make font smaller
+            description = {"Have a question?"} //TODO Change to a unique block and make font smaller
             frequency = {""}
             button_text = {"Find Out More"} 
             link={"https://form.jotform.com/260319100518851"} 
           />
 
         </div>
-        Instagram logo @coaching by celeste
+        
+        <Socials/>
+        
       </main>
     </div>
   );
