@@ -1,7 +1,7 @@
 {
   "name": "coaching-by-celeste",
   "homepage": "http://coachingbyceleste.com.au",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "private": false,
   "scripts": {
     "dev": "next dev",

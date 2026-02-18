@@ -3,17 +3,13 @@ import Plan from "./components/plan/plan";
 import Bio from "./components/bio/bio";
 import Glossary from "./components/glossary/glossary";
 import Contact_form from "./components/contact_form/contact_form";
-// import "../../public/hero_img" as Hero;  
-// import IMG from "https://picsum.photos/id/1/200/300"
+import Socials from "./components/socials/socials";
 
 
 export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        {/* <h1>
-          Coaching By Celeste
-        </h1> */}
         <img className={styles.hero_img} src="hero_img.JPG"/>
         <Bio/>
         <Plan 
@@ -84,11 +80,12 @@ export default function Home() {
         /> */}
         <Glossary/>
         <Contact_form/>
+        <div style={{paddingTop: 8}}><Socials/></div>
       </main>
         
 
       <footer className={styles.footer}>
-        
+          
       </footer>
     </div>
   );
