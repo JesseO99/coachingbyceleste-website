@@ -45,14 +45,14 @@ export default function Page() {
         </div>
         <div className={styles.packages}>
           <Package className={styles.package}
-            payment = {"$399"}
+            payment = {"$344"}
             frequency = {"One Time Payment"}
             button_text = {"I'm In!"} 
             link={"https://share.newie.app/offerings/CCA02CB2-F48D-4A65-9307-0FE72D7F25BA"} 
 
           />
           <Package
-            payment = {"$49"}
+            payment = {"$43"}
             frequency = {"Weekly Payment"}
             button_text = {"I'm In!"} 
             link={"https://share.newie.app/offerings/1B825DBD-4A11-4E73-B85E-54C09466FF33"} 
