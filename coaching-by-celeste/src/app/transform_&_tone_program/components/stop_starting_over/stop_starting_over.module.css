@@ -1,0 +1,22 @@
+.stop_starting_over {
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    text-align: center;
+    padding: 3em;
+    color: #3C2F2F;
+    background-color: #FAF2F0;
+    width: 100vw;
+}
+
+.stop_starting_over h2 {
+    margin-bottom: 0.5em;
+    font-size: xx-large;
+
+}
+
+.stop_starting_over p {
+    /* margin: 0.5em; */
+    font-size: large;
+    
+
+}

@@ -1,0 +1,88 @@
+.here_is_what_you_get {
+    width: 100%;
+    background-color: #faf2f0;
+    text-align: center;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2em;
+
+}
+
+.here_is_what_you_get_card {
+    /* offer-card */
+    min-width: 0;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px;
+    gap: 32px;
+    max-width: 48%;
+
+
+    background: #FFFFFF;
+    opacity: 0.85;
+    border: 1px solid rgba(60, 47, 47, 0.117647);
+    box-shadow: 0px 12px 24px rgba(60, 47, 47, 0.101961);
+    border-radius: 16px;
+
+}
+
+.here_is_what_you_get_card li {
+    position: relative;
+    padding-left: 2em;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+.card_divider {
+    width: 100%;
+    margin: 0;
+    border: 0;
+    border-top: 1px solid rgba(60, 47, 47, 0.25);
+}
+
+.inclusion_img {
+    flex: 1 1 0;
+    min-width: 0;
+    width: auto;
+    max-width: 48%;
+    align-self: stretch;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+
+.inclusion_img img{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 16px;
+    border: 1px solid rgba(60, 47, 47, 0.117647);
+    box-shadow: 0px 12px 24px rgba(60, 47, 47, 0.101961);
+    border-radius: 16px;
+}
+
+@media (max-width: 768px) {
+    .here_is_what_you_get {
+        flex-direction: column;
+    }
+
+    .here_is_what_you_get_card {
+        max-width: 100%;
+    }
+
+    .inclusion_img {
+        flex: 0 1 auto;
+        width: 100%;
+        max-width: 100%;
+        height: min(50vh, 480px);
+    }
+}

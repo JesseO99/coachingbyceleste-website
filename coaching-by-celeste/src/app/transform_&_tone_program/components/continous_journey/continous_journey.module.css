@@ -1,0 +1,30 @@
+.continous_journey {
+    padding: 2em 0;
+    text-align: center;
+}
+.the_journey_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 0;
+}
+
+.journey_card {
+    /* offer-card */
+    background-color: #faf2f0;
+    width: 20vw;
+    margin: 0.5em;
+    /* height: 25vw; */
+    padding: 1em 0;
+}
+
+@media (max-width: 768px) {
+    .the_journey_container {
+        flex-direction: column;
+        padding: 2em;
+    }
+    .journey_card {
+        width: 100%;
+    }
+}

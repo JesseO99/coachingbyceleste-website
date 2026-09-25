@@ -1,0 +1,114 @@
+.this_is_for_you {
+    /* font-family: 'Inter'; */
+    font-style: normal;
+
+    padding: 3em;
+    color: #3C2F2F;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.this_is_for_you h2 {
+    margin-bottom: 0.5em;
+    font-size: xx-large;
+    text-align: left;
+
+}
+
+.this_is_for_you ul {
+    list-style: none;
+    padding: 0;
+}
+
+.this_is_for_you li {
+    position: relative;
+    padding-left: 2em;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+.this_is_for_you li::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 1.25em;
+    height: 1.25em;
+    border-radius: 50%;
+    background-color: #3C2F2F;
+    transform: translateY(-50%);
+}
+
+.this_is_for_you li::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0.42em;
+    width: 0.35em;
+    height: 0.55em;
+    border-right: 0.19em solid #FAF2F0;
+    border-bottom: 0.24em solid #FAF2F0;
+    border-radius: 15%;
+    transform: translateY(-60%) rotate(45deg);
+}
+
+.this_is_not_for_you {
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: right;
+    align-items: right;
+    display: block;
+    color: #3C2F2F;
+    width: 100%;
+
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.this_is_not_for_you h2{
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: right;
+    align-items: right;
+    display: block;
+    color: #3C2F2F;
+    padding: 0;
+    margin: 0;
+    font-size: 3vw;
+    font-weight:500;
+}
+
+.this_is_not_for_you span {
+    font-weight: 900;
+    font-size: 4vw; 
+
+}
+
+
+@media (max-width: 768px) {
+    .this_is_for_you {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 2em;
+    }
+    .this_is_not_for_you {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 2em;
+
+    }
+
+    .this_is_not_for_you h2, .this_is_not_for_you span{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: x-large;
+    }
+}

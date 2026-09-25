@@ -31,7 +31,29 @@ export default function Home() {
           } 
           link={"https://r.newie.app/12w630z8neaz"} 
         />
+
         <Plan 
+          title={"Transform & Tone Program"}
+          terms= {<>Terms: 8-week minimum commitment, non-refundable </>}
+          inclusions={
+            [
+              'Structered training program',
+              'Individual calore & macro targets',
+              'Foundations education',
+              'Progress tracking',
+              'Weekly check ins',
+              'Community support',
+              'Ongoing progression'
+            ]
+          } 
+          link={"https://share.newie.app/offerings/1B825DBD-4A11-4E73-B85E-54C09466FF33"}
+          />
+
+        
+       
+       
+        {/* Requested Removal by Celeste */}
+        {/* <Plan 
           title={"Online coaching - Nutrition only"} 
           terms={<>Terms: min 8 weeks,<br/>2 weeks cancellation notice,<br/>14 days pause notice</>} 
           inclusions={
@@ -60,7 +82,7 @@ export default function Home() {
             ]
           } 
           link={"https://r.newie.app/3bly4fz6c2jl"} 
-        />
+        /> */}
         {/* Requested Removal by Celeste */}
         {/* <Plan 
           title={"Once off meal plan "} 
