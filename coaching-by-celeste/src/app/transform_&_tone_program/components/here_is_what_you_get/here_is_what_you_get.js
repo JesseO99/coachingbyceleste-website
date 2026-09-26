@@ -1,4 +1,5 @@
 import styles from './here_is_what_you_get.module.css';
+import Button from '@/app/components/button/button';
 
 export default function HereIsWhatYouGet() {
 	return (
@@ -29,10 +30,13 @@ export default function HereIsWhatYouGet() {
                         <p><strong>Ongoing progression:</strong> Move through the TTP stages as your goals evolve.</p>
                     </li>
                 </ul>
+
+                <Button link= "https://r.newie.app/49a8ud6hftzx" label="Sign me up"/>
             </div>
             <div className={styles.inclusion_img}>
                 <img src="Celeste_squat.JPG" alt="Celeste doing a squat"/>
-            </div>
+            </div>                
+
 			
 		</div>
 	);

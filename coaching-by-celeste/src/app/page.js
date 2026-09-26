@@ -46,7 +46,7 @@ export default function Home() {
               'Ongoing progression'
             ]
           } 
-          link={"https://share.newie.app/offerings/1B825DBD-4A11-4E73-B85E-54C09466FF33"}
+          link={"https://r.newie.app/49a8ud6hftzx"}
           />
 
         

@@ -39,8 +39,8 @@
 .ttp_header h1 {
     margin: 0;
     z-index: 1; /* Keeps text on top */
-
-    font-family: 'Inter';
+/* 
+    font-family: 'Inter'; */
     font-style: normal;
 
     text-align: center;

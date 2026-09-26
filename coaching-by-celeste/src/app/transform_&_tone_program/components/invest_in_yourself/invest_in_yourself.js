@@ -11,7 +11,7 @@ export default function InvestInYourself() {
             <p className={styles.description}>
                 for an 8-week block (minimum term 8 weeks, rolling week to week).
             </p>
-            <Button label="I'm ready!" link="https://share.newie.app/offerings/1B825DBD-4A11-4E73-B85E-54C09466FF33" />
+            <Button label="I'm ready!" link="https://r.newie.app/49a8ud6hftzx" />
         </div>
     </div>
   );
