@@ -5,7 +5,7 @@ export default function Glossary() {
     return(
     <div className="glossary_container">
         <h3>Nutrition</h3>
-        <p>Personalised meal plans tailored to your goals, and lifestyle. Makes nutrition easy to through meal prep hacks and recipe ideas. </p>
+        <p>Personalised meal plans tailored to your goals and lifestyle. Makes nutrition easy to through meal prep hacks and recipe ideas. </p>
         <br/>
         <h3>Training</h3>
         <p>Evidence based training programs customised to your goals. </p>

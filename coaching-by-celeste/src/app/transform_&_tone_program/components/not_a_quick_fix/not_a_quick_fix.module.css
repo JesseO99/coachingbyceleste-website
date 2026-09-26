@@ -1,0 +1,15 @@
+.not_a_quick_fix {
+    padding: 2em;   
+    text-align: center;
+}
+
+.not_a_quick_fix h2 {
+    font-size: xx-large;
+    margin-bottom: 0.5em;
+}
+
+.subtitle {
+    margin: 1em 0;
+    font-weight: 700;
+    font-size: large;
+}

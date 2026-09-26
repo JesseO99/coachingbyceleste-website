@@ -3,24 +3,33 @@
 .Button {
 	box-shadow: 0px 1px 3px 0px #1c1b18;
 	background:linear-gradient(to bottom, #fff1e9 5%, #fff1e9 100%);
-	background-color:#fff1e9;
+	/* background-color:#fff1e9; */
 	border-radius:16px;
-	border:1px solid #6c3323;
-	display:inline-block;
+	/* border:1px solid #6c3323; */
+	/* display:inline-block; */
 	cursor:pointer;
-	color: #6c3323;
+	color: white;
 	font-size:14px;
-	padding:16px 24px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #6c3323;
+	/* padding:16px 24px; */
+	/* text-decoration:none; */
+	/* text-shadow:0px 1px 0px #6c3323; */
     text-align: center;
-	width:fit-content;
+	width:stretch;
+	font-size: large;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0.5em 2em;
 
+	background: #3C2F2F;
+	border-radius: 20px;
     /* min-height: 0px; */
 }
 .Button:hover {
 	background:linear-gradient(to bottom, #e8dbd4 5%, #e8dbd4 100%);
 	background-color:#e8dbd4;
+	color: #3C2F2F;
 }
 .Button:active {
 	position:relative;

@@ -14,7 +14,7 @@ export default function Home() {
         <Bio/>
         <Plan 
           title={"Online coaching - Training and nutrition"} 
-          terms={<>Terms: min 8 weeks,<br/>2 weeks cancellation notice,<br/>14 days pause notice</>} 
+          terms={<>Terms: min 12 weeks,<br/>2 weeks cancellation notice,<br/>14 days pause notice</>} 
           inclusions={
             [
               'Access to Coaching by Celeste app', 
@@ -34,11 +34,11 @@ export default function Home() {
 
         <Plan 
           title={"Transform & Tone Program"}
-          terms= {<>Terms: 8-week minimum commitment, non-refundable </>}
+          terms= {<>Terms: 8-week minimum commitment </>}
           inclusions={
             [
-              'Structered training program',
-              'Individual calore & macro targets',
+              'Structured training program',
+              'Individual calorie & macro targets',
               'Foundations education',
               'Progress tracking',
               'Weekly check ins',

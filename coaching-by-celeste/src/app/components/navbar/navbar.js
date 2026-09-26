@@ -8,7 +8,7 @@ export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const navigationLinks = [
         { href: "./", label: "Home" },
-        { href: "#Coaching", label: "1:1 Coaching" },
+        // { href: "#Coaching", label: "1:1 Coaching" },
         { href: "./transform_&_tone_program", label: "Transform & Tone Program" },
     ];
 
