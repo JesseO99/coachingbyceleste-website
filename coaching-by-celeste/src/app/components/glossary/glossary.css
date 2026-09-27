@@ -1,4 +1,32 @@
 .glossary_container {
     padding: 2em 4em;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items:; */
+}
+
+.glossary_card {
+    width:20vw;
+    padding: 2em;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1060px) {
+
+    .glossary_card {
+        width:40vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .glossary_container {
+        flex-direction: column;
+    }
+
+    .glossary_card {
+        width: 80vw;
+    }
+    
 }

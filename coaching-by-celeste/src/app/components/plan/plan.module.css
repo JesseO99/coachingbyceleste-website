@@ -1,5 +1,5 @@
 
-.plan-container {
+.plan_container {
     display: flex;
     flex: 1 1 0;
     align-items: stretch;
@@ -22,7 +22,7 @@
 
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 768px){
     .plan_inner_container{
         display: grid;
         width: 80vw;
@@ -39,6 +39,7 @@
     text-align: center;
     padding-bottom: 0.5em;
     text-transform: uppercase;
+    /* font-size: large; */
 }
 
 .plan_inner_container hr {
@@ -56,14 +57,23 @@
 .plan_inner_container .plan_terms {
     font-weight: bold;
     text-align: center;
-    font-size: 8px;
+    font-size: 10px;
+}
+
+.plan_inner_container .price_line {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: baseline;
 }
 
 .plan_inner_container .plan_price {
+    display: flex;
     font-size: 1.5rem;
-    font-weight: bold;
+    /* font-weight: bold; */
     padding-bottom: 0.5em;
     text-align: center;
+    font-size: 56;
 }
 
 .plan_inner_container .plan_header,.plan_footer {
@@ -108,7 +118,7 @@
     transform: translateY(-60%) rotate(45deg);
 }
 
-.plan_inner_container > span {
-    width: 100%;
+.plan_inner_container > .button {
     margin-top: auto;
+    width: 100%;
 }

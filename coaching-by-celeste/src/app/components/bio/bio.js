@@ -5,7 +5,7 @@ export default function Bio() {
     return(
     <div className="bio_container">
         
-        <h1>Welcome to Coaching by Celeste! </h1>
+        <h2>Welcome to Coaching by Celeste! </h2>
         <p>
             <br/><br/>
             I’m here to help achieve your goals, build confidence, resilience, and self-belief so you can feel empowered in all aspects of life. 
@@ -16,7 +16,7 @@ export default function Bio() {
             <br/><br/>
             Lets get started!
             <br/><br/>
-            Celeste x
+            <img style={{width: 128}}src="Signature.png"/>
         </p>
 
     </div>

@@ -26,6 +26,5 @@ export default function Page() {
     <InvestInYourself/>
     <NotAQuickFix/>
     <FAQs/>
-    <Footer/>
   </div>)
 }

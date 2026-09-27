@@ -17,7 +17,7 @@ export default function Navbar() {
     return(
         <nav className="navbar">
             <div className="logo">
-                <img src="Logo.png" alt="Coaching by Celeste Logo"/>
+                <a href="./"><img src="Logo.png" alt="Coaching by Celeste Logo"/></a>
             </div>
             <button
                 className="menu_toggle"

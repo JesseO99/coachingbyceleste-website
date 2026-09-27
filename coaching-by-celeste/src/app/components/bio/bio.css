@@ -1,5 +1,8 @@
 .bio_container {
-    padding: 2em 4em;
+    padding: 2em 15vw;
     text-align: center;
-    font-size: 18px;
+    font-size: 14px;
+    background-color: #FAF2F0;
+    width: 100%;
+
 }

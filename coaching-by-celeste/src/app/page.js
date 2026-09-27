@@ -4,7 +4,7 @@ import Bio from "./components/bio/bio";
 import Glossary from "./components/glossary/glossary";
 import Contact_form from "./components/contact_form/contact_form";
 import Socials from "./components/socials/socials";
-
+import Footer from "./components/footer/footer";
 
 export default function Home() {
   return (
@@ -12,9 +12,15 @@ export default function Home() {
       <main className={styles.main}>
         <img className={styles.hero_img} src="hero_img.JPG"/>
         <Bio/>
+        <div className={styles.plans_container}>
+
+        
         <Plan 
-          title={"Online coaching - Training and nutrition"} 
-          terms={<>Terms: min 12 weeks,<br/>2 weeks cancellation notice,<br/>14 days pause notice</>} 
+          category={"Online 1 on 1 Coaching"}
+          title={"Training and nutrition"}
+          price={<>$80.00</>}
+          durration={<>p/w</>} 
+          terms={<>Terms: min 12 weeks, $60 onboarding fee <br/> 2 weeks cancellation notice,14 days pause notice </>} 
           inclusions={
             [
               'Access to Coaching by Celeste app', 
@@ -33,7 +39,10 @@ export default function Home() {
         />
 
         <Plan 
+          category = {"Group Coaching"}
           title={"Transform & Tone Program"}
+          price={"$37.00"}
+          durration={<>p/w</>}
           terms= {<>Terms: 8-week minimum commitment </>}
           inclusions={
             [
@@ -100,15 +109,12 @@ export default function Home() {
           footer = {<>Flexible and can be used for as many week as you would like. <br/><br/> Step-by-step guide on how to use My Fitness Pal included.</>}
           link={"https://r.newie.app/3nwk55mk9q4v"}
         /> */}
+        </div>
         <Glossary/>
         <Contact_form/>
-        <div style={{paddingTop: 8}}><Socials/></div>
+        {/* <div style={{paddingTop: 8}}><Socials/></div> */}
       </main>
         
-
-      <footer className={styles.footer}>
-          
-      </footer>
     </div>
   );
 }

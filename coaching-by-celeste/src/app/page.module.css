@@ -1,6 +1,7 @@
 .page {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
                                                 
 }
@@ -22,7 +23,27 @@
   object-position: 100% 40%;
 }
 
-@media only screen and (max-width: 600px) {
+
+
+.hero_img img {
+  visibility: hidden;
+  overflow: hidden;
+}
+
+.plans_container {
+  width:100%;
+    
+  align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #FAF2F0;
+  /* align-self: stretch; */
+}
+
+
+
+@media only screen and (max-width: 768px) {
   .hero_img {
     width: 100vw;
     height: 50vh;
@@ -30,9 +51,8 @@
     object-fit: cover;
     object-position: 80% 80%;
   }
-}
 
-.hero_img img {
-  visibility: hidden;
-  overflow: hidden;
+  .plans_container{
+    flex-direction: column;
+  }
 }

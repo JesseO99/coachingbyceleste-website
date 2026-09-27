@@ -58,7 +58,7 @@
 }
 
 .this_is_not_for_you {
-    font-family: 'Inter';
+    /* font-family: 'Inter'; */
     font-style: normal;
     text-align: right;
     align-items: right;
@@ -71,7 +71,7 @@
 }
 
 .this_is_not_for_you h2{
-    font-family: 'Inter';
+    /* font-family: 'Inter'; */
     font-style: normal;
     text-align: right;
     align-items: right;

@@ -2,52 +2,28 @@
 
 import styles from "./contact_form.css";
 import Button from "../button/button";
-import { useEffect, useRef, useState } from "react";
 
 
 export default function Contact_form() {
-
-
-    const targetDivRef = useRef(null);
-    const [height, setHeight] = useState(0);
-
-    useEffect(() => {
-        const targetDiv = targetDivRef.current;
-        if (!targetDiv) return;
-
-        const updateHeight = () => setHeight(targetDiv.clientHeight);
-
-        // Initialize height
-        updateHeight();
-
-        // Watch for height changes
-        const observer = new ResizeObserver(updateHeight);
-        observer.observe(targetDiv);
-
-        window.addEventListener("resize", updateHeight);
-
-        // Cleanup
-        return () => {
-            observer.disconnect();
-            window.removeEventListener("resize", updateHeight);
-
-        };
-    }, []);
-
     return(
     <div className="contact_form_container">
-        <div ref={targetDivRef} className="contact_form_inner_container">
+        <div className="contact_form_inner_container">
 
             <h2> Contact Celeste </h2>
+            <hr/>
             <p>
                 <br/>
 
                 Want help or advice on a plan that suits you?
 
                 <br/><br/>
-
-                Follow me on instagram at <a href="https://www.instagram.com/coachingbyceleste/">instagram.com/coachingbyceleste</a>
-
+            </p>
+            <a href="https://www.instagram.com/coachingbyceleste/">
+            <span className="instagram_plug">
+                <img src="instagram_mono.png"/><p><strong>Direct Message</strong><br/> Send a DM to @coachingbyceleste  </p>
+            </span>    
+            </a>
+            {/* <p>
                 <br/><br/>
                 
                 Prefer to speak?
@@ -57,15 +33,14 @@ export default function Contact_form() {
 
             </p>
 
-            <div className="button_container" >
+            <span className="button_container" >
                 <Button link={"https://calendly.com/celeste-osrecak/30min"} label={"Book a call"} />
-            </div>
+            </span> */}
 
 
 
         </div>
-            <img style={{ height:`${height}px`}} className="contact_image" src="contact_img.JPG"/>
-            
+            <img className="contact_image" src="phonecall.png"/>
     </div>
     );
 };
